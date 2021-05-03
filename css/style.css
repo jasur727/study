@@ -15,10 +15,12 @@ body{
   border: 2px solid blue;
   padding: 6px 7px 7px 20px;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .main-header{
-  width: 632px;
+  display: flex;
+  justify-content: space-between;
   text-transform: capitalize;
 }
 
@@ -29,6 +31,10 @@ body{
 .nav ul{
   display: flex;
   list-style: none;
+}
+
+.linklar{
+  text-decoration: none;
 }
 
 .site-menu{
@@ -56,6 +62,67 @@ body{
   color: #7D7D7D;
 }
 
+.button-header{
+  background-color: #717CFF;
+  color: #f2f2f2;
+  align-items: center;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  padding: 6px 70px 6px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.header-link{
+  list-style: none;
+}
+
+
+.student-img{
+  list-style: none;
+}
+
+.header-footer{
+  list-style: none;
+}
+.header-footer h2{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.header-reklama{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-footer{
+  padding: 0;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(124, 124, 124, 0.318837)
+}
+
+.button-active{
+  width: 14px;
+  height: 14px;
+  background: #717CFF;
+}
+
+/* header qismi tugadi */
+
+/* --------------------------------------------------------------- */
 
 
 
