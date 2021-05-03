@@ -13,9 +13,16 @@ body{
 }
 .apply{
   border: 2px solid blue;
-  padding: 6px 7px 7px 20px;
+  padding: 10px 16px 10px 27px;
   border-radius: 10px;
   text-decoration: none;
+  background-color: #fff;
+  color: #717CFF;
+  transition: background-color 0.5s ease,color 0.5s ease;
+}
+.apply:hover{
+  background-color: #717CFF;
+  color: #fff;
 }
 
 .main-header{
@@ -34,6 +41,13 @@ body{
 }
 
 .linklar{
+  color: #000;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #373737;
   text-decoration: none;
 }
 
@@ -74,6 +88,14 @@ body{
   padding: 6px 70px 6px 20px;
   border-radius: 8px;
   border: none;
+  transition: background-color 0.5s ease,color 0.5s ease;
+  border: 2px solid #717CFF;
+}
+
+.button-header:hover{
+  background-color: #f2f2f2;
+  color: #717CFF;
+
 }
 .header-link{
   list-style: none;
