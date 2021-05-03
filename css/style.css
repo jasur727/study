@@ -124,12 +124,44 @@ body{
 
 /* --------------------------------------------------------------- */
 
+.main-header-main{
+  align-items: center;
+}
+
+.main-header-main h2{
+
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  /* identical to box height, or 146% */
+
+  text-align: center;
+
+}
+
+.main-header-main p{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
 
 
+  color: #7D7D7D;
+  width: 949px;
+  height: 80px;
+}
 
+.main2{
+  list-style: none;
+}
 
-
-
-
+.main2-footer{
+  display: flex;
+  justify-content: space-between;
+}
 
 
