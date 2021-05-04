@@ -1,7 +1,16 @@
 body{
-  background-color: #f2f2f2;
+  background-color:#ffffff;
   font-family: 'Roboto', sans-serif;
+margin: 0;}
+
+.container{
+  max-width: 1160;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .site-header{
   list-style: none;
 }
@@ -49,6 +58,7 @@ body{
   line-height: 20px;
   color: #373737;
   text-decoration: none;
+  margin-right: 70px;
 }
 
 .site-menu{
@@ -60,6 +70,7 @@ body{
   font-weight: 900;
   font-size: 56px;
   line-height: 66px;
+  margin-bottom: 45px;
 }
 
 .header-menu {
@@ -68,37 +79,63 @@ body{
 
 .header-menu p{
   width: 632px;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 38px;
   color: #7D7D7D;
+  margin-bottom: 45px;
+  text-transform: initial;
 }
 
-.button-header{
+.apply-online{
   background-color: #717CFF;
-  color: #f2f2f2;
-  align-items: center;
+  color: #717CFF;
+  border: 2px solid black;
+  width: 160px;
+  padding: 10px 50px 10px 25px;
+  border-radius: 12px;
+  border: none;
+  transition: background-color 0.5s ease,color 0.5s ease;
+
+  margin-bottom: 110px;
+}
+
+.apply-online:hover{
+  padding: 10px 50px 10px 25px;
+  border: 2px solid #717CFF;
+  background-color: #ffffff;
+
+}
+
+.apply-online:hover a {
+  color: rgb(94, 106, 245);
+
+}
+
+.apply-online a{
+  text-decoration: none;
   font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 40px;
-  padding: 6px 70px 6px 20px;
-  border-radius: 8px;
-  border: none;
-  transition: background-color 0.5s ease,color 0.5s ease;
-  border: 2px solid #717CFF;
+  color: #FFFFFF;
 }
 
-.button-header:hover{
-  background-color: #f2f2f2;
-  color: #717CFF;
-
+.apply-online img{
+  margin-left: 14px;
+  margin-bottom: -3px;
 }
+
 .header-link{
+
   list-style: none;
+}
+
+.header-link a{
+  margin-left: 20px;
 }
 
 
@@ -106,10 +143,8 @@ body{
   list-style: none;
 }
 
-.header-footer{
-  list-style: none;
-}
-.header-footer h2{
+
+.sectionn h2{
   font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -121,12 +156,27 @@ body{
   color: #373737;
 }
 
-.header-reklama{
+.sectionn{
+  background-color: #f2f2f2;
+  padding-top: 20px;}
+
+.container{
+  max-width: 1230px;
+  padding: 0 15px;
+}
+
+  .header-reklama{
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
+.btn{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
 .button-footer{
   padding: 0;
   border: none;
