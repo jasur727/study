@@ -1,7 +1,8 @@
 body{
   background-color:#ffffff;
   font-family: 'Roboto', sans-serif;
-margin: 0;}
+  margin: 0;
+}
 
 .container{
   max-width: 1160;
@@ -158,16 +159,23 @@ margin: 0;}
 
 .sectionn{
   background-color: #f2f2f2;
-  padding-top: 20px;}
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.sectionn h2{
+  margin-bottom: 95px;
+}
 
 .container{
   max-width: 1230px;
   padding: 0 15px;
 }
 
-  .header-reklama{
+.header-reklama{
   list-style: none;
   display: flex;
+  margin-bottom: 105px;
   justify-content: space-between;
 }
 
@@ -182,6 +190,7 @@ margin: 0;}
   border: none;
   width: 10px;
   height: 10px;
+  margin-left: 22px;
   border-radius: 50%;
   background: rgba(124, 124, 124, 0.318837)
 }
@@ -195,7 +204,9 @@ margin: 0;}
 /* header qismi tugadi */
 
 /* --------------------------------------------------------------- */
-.main2 h2{
+
+.news h2{
+  margin-top: 105px;
   font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -207,7 +218,8 @@ margin: 0;}
   color: #373737;
 }
 
-.main2 p{
+.news p{
+  margin: 0 auto;
   font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -216,6 +228,14 @@ margin: 0;}
   width: 949px;
   text-align: center;
   color: #7D7D7D;
+  margin-top: 25px;
+  margin-bottom: 110px;
+}
+
+.main2{
+  padding-bottom: 100px;
+  background-color: #FAFAFA;
+
 }
 
 .main22{
@@ -223,9 +243,20 @@ margin: 0;}
   justify-content: space-around;
 }
 
+.time{
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+.time img{
+  margin-right: 15px;
+}
+
 .main33{
   width: 344px;
   height: 406px;
+  margin-right: 46px;
 }
 .main33 p{
   font-family: 'Roboto',sans-serif;
@@ -247,10 +278,9 @@ margin: 0;}
 }
 
 .join-here{
+  margin: 0 auto;
   border:2px solid black;
-  padding: 16px 46px 16px 34px;
   background-color: #717CFF;
-  color: #fff;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -258,8 +288,29 @@ margin: 0;}
   line-height: 40px;
   border: none;
   border-radius: 8px;
+  width: 226px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  margin-top: 146px;
 }
 
+.join-here a{
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+  display: inline-block;
+}
+
+
+.join-here img{
+  margin-left: 41px;
+}
 .main-middle{
   text-align: center;
 }
@@ -276,6 +327,9 @@ margin: 0;}
   color: #373737;
 }
 .main-middle p{
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 100px;
   width: 949px;
   font-family: 'Roboto',sans-serif;
   font-style: normal;
@@ -446,4 +500,67 @@ margin: 0;}
 .footer12{
   display: flex;
   justify-content: space-around;
+}
+
+.footer{
+  background-color: #717CFF;
+}
+
+.footer-main img{
+  margin-top: 64px;
+}
+
+.footer-main p{
+  margin-top: 26px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  width: 343px;
+  color: #EEEEEE;
+}
+
+.footer-mid{
+  display: flex;
+}
+
+.footer-link{
+  list-style: none;
+  margin-left: 313px;
+  margin-top: 70px;
+
+}
+.footer-middle{
+  list-style: none;
+  margin-left: 108px;
+  margin-top: 70px;
+}
+
+.footer-item{
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 49px;
+  color: #EEEEEE;
+}
+
+.footer-text p{
+  font-family: 'Rubik',serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #EEEEEE;
+}
+
+.footer-down{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-icon{
 }
