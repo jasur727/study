@@ -16,6 +16,14 @@ body {
   list-style: none;
 }
 
+.site-header-img{
+  content: "";
+  display: block;
+  width: 146px;
+  height: 52px;
+  background-image: url("../img/first-logo.svg");
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -44,6 +52,7 @@ body {
 }
 
 .build {
+  color: rgb(63, 74, 219);
   text-decoration: none;
 }
 
@@ -99,12 +108,30 @@ body {
   text-transform: initial;
 }
 
+.apply-online{
+  display: flex;
+}
+
+.apply-online-img::after{
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/strelka.svg");
+}
+
 .apply {
+  display: flex;
   background: #717CFF;
   border-radius: 11px;
   color: #FFFFFF;
   padding: 12px 45px 12px 34px;
   text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.apply-online-img{
+  margin-left: 20px;
 }
 
 .apply:hover {
@@ -119,13 +146,36 @@ body {
 }
 
 .header-link {
+  display: flex;
+  align-items: center;
   margin-bottom: 42px;
   margin-top: 120px;
   list-style: none;
 }
+.facebook::before{
+  content: "";
+  width: 11px;
+  height: 20px;
+  display: block;
+  background-image: url("../img/facebook.svg");
+}
 
-.header-link a {
-  margin-left: 20px;
+.twitter::before{
+  content: "";
+  width: 20px;
+  height: 19px;
+  display: block;
+  margin-left: 30px;
+  background-image: url("../img/twitter.svg");
+}
+
+.instagram::before{
+  content: "";
+  width: 22px;
+  height: 23px;
+  display: block;
+  margin-left: 30px;
+  background-image: url("../img/instagramm.svg");
 }
 
 
@@ -176,6 +226,38 @@ body {
   width: 296px;
 }
 
+.icon-img::before{
+  content: "";
+  display: block;
+  width: 76px;
+  height: 76px;
+}
+
+.fast-img::before{
+  background-image: url("../img/fast.svg");
+}
+
+.gallary-img::before{
+  background-image: url("../img/galereya.svg");
+}
+
+.visa-img::before{
+  background-image: url("../img/fayl.svg");
+}
+
+.home-img::before{
+  background-image: url("../img/home.svg");
+}
+
+.polit-img::before{
+  background-image: url("../img/polit.svg");
+}
+
+.fast-link{
+  display: flex;
+  align-items: center;
+}
+
 .fast-link a {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -187,8 +269,13 @@ body {
   text-decoration: none;
 }
 
-.fast-link img {
+.fast-link-icon::before{
+  content: "";
+  display: block;
+  width: 19px;
+  height: 19px;
   margin-left: 20px;
+  background-image: url("../img/strelka.svg");
 }
 
 .item-icon {
@@ -238,6 +325,38 @@ body {
   display: flex;
   margin-bottom: 105px;
   justify-content: space-between;
+}
+
+.macquarie::before{
+  content: "";
+  width: 225px;
+  height: 68px;
+  display: block;
+  background-image: url("../img/macquarie.png");
+}
+
+.charles::before{
+  content: "";
+  width: 250px;
+  height: 64px;
+  display: block;
+  background-image: url("../img/charles.png");
+}
+
+.newcastle::before{
+  content: "";
+  width: 224px;
+  height: 80px;
+  display: block;
+  background-image: url("../img/newcastlie.png");
+}
+
+.la-trobe::before{
+  content: "";
+  width: 275px;
+  height: 63px;
+  display: block;
+  background-image: url("../img/la-trobe.svg");
 }
 
 .btn {
@@ -316,12 +435,36 @@ body {
   margin-bottom: 18px;
 }
 
-.time img {
-  margin-right: 15px;
+.time-date::before{
+  content: "";
+  display: block;
+  width: 15px;
+  height: 16px;
+  margin-right: 10px;
+  background-image: url("../img/icon.svg");
 }
 
 .item-time {
   padding: 0 27px 64px 23px;
+}
+
+.main-icon::before{
+  content: "";
+  width: 344px;
+  height: 224px;
+  display: block;
+}
+
+.main-img::before{
+  background-image: url("../img/rasm1.png");
+}
+
+.main33-img::before{
+  background-image: url("../img/yuz.svg");
+}
+
+.main33-img-icon::before{
+  background-image: url("../img/fanar.svg");
 }
 
 .main33 {
@@ -632,6 +775,25 @@ body {
   justify-content: space-between;
 }
 
+.icon-item::before{
+  content: "";
+  display: block;
+  width: 348px;
+  height: 215px;
+}
+
+.dubai-img::before{
+  background-image: url("../img/dubai.png");
+}
+
+.rim-img::before{
+  background-image: url("../img/rim.png");
+}
+
+.sohil-img::before{
+  background-image: url("../img/sohil.png");
+}
+
 .button-footer {
   padding: 0;
   border: none;
@@ -677,6 +839,20 @@ body {
 
 .qiz-oqituvchi {
   display: flex;
+}
+.teacher::before{
+  content: "";
+  display: block;
+  width: 62px;
+  height: 62px;
+}
+
+.qiz-teacher::before{
+  background-image: url("../img/qiz-oqituvchi.png");
+}
+
+.ogil-teacher::before{
+  background-image: url("../img/oqituvchi.png");
 }
 
 .harrison {
@@ -736,6 +912,15 @@ body {
   color: #252525;
 }
 
+.apply-icon{
+  content: "";
+  display: block;
+  width: 18px;
+  height: 17px;
+  margin-left: 20px;
+  background-image: url("../img/strelka.svg");
+}
+
 .footer {
   background-color: #717CFF;
 }
@@ -761,14 +946,14 @@ body {
 
 .footer-link {
   list-style: none;
-  margin-left: 313px;
+  margin-left: 130px;
   margin-top: 70px;
 
 }
 
 .footer-middle {
   list-style: none;
-  margin-left: 108px;
+  margin-left: 106px;
   margin-top: 70px;
 }
 
@@ -780,6 +965,8 @@ body {
   font-size: 18px;
   line-height: 49px;
   color: #EEEEEE;
+  width: 157px;
+  height: 197px;
 }
 
 .footer-item:hover {
@@ -794,6 +981,39 @@ body {
   line-height: 32px;
   color: #EEEEEE;
 }
+.footer-icon{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 152px;
+  margin-bottom: 30px;
+}
+
+.icon-footer{
+  margin-left: 30px;
+}
+
+.icon-footer::before{
+  content: "";
+  display: block;
+}
+
+.footer-facebook::before{
+  width: 8px;
+  height: 16px;
+  background-image: url("../img/facebook1.svg");
+}
+
+.footer-twitter::before{
+  width: 16px;
+  height: 14px;
+  background-image: url("../img/twitter1.svg");
+}
+
+.footer-instagram::before{
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/instagram1.svg");
+}
 
 .footer-down {
   display: flex;
@@ -801,6 +1021,7 @@ body {
   justify-content: space-between;
 }
 
-.icon {
-  margin-left: 28px;
+.footer-down p{
+  color: #fff;
+
 }
